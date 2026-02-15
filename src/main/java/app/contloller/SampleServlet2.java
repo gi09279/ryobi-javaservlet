@@ -25,6 +25,10 @@ public class SampleServlet2 extends HttpServlet {
 
 		RequestDispatcher dispatcher = request.getRequestDispatcher("/WEB-INF/sample2.jsp");
 
+		
+		
+		
+		
 		dispatcher.forward(request, response);
 	}
 
